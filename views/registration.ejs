@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="Image/sg3.png">
+    <title>RegisterPage</title>
+    <style>
+.Registration-header{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('Image/img_2.jpg');
+}  
+#button_2:hover{
+    transform: scale(1.25);
+}  </style>
+</head>
+<body>
+    <header class="Registration-header">
+        <div class="container">
+            <div class="logo">
+                <a href="/index">Enthusiast.com</a>
+            </div>
+            <nav>
+              <ul>
+                <li class="link"><a href="/index">Home</a></li>
+                <li class="link"><a href="/about">About Us</a></li>
+                <li class="link"><a href="/registration">Register</a></li>
+                <li class="link"><a href="/course">Courses</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section class="user-container login-section--display">
+             <div class="registration">
+                <div class="grid-two--column">
+                    <div class="form-text">
+                        <h2>Hello! Welcome Back</h2>
+                        <p>Stay Connected! Use your credentials to start where you drop-off.</p>
+                        <button class="login-btn" id="button_2">Login here</button>
+                    </div>
+                   <div class="registration-form">
+                    <h2>Create Account</h2>
+                    <div class="social-icons">
+                        <a href="https://discord.com/">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://linkedin.com/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p>Register yourself today!</p>
+                    <form action="/register" method="post">
+
+                        <div class="input-field">
+                            <label for="name">
+                                <input type="text" name="name" id="name" placeholder="name">
+                            </label>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="email">
+                                <input type="email" name="email" id="email" placeholder="email">
+                            </label>
+                        </div>
+
+                            <div class="input-field">
+                            <label for="password">
+                                <input type="password" name="password" id="password" placeholder="Password">
+                            </label>
+                            </div>
+                         <div class="input-field">
+                            <input type="submit" value="register">
+                        </div>
+                        </div>
+                    </form>
+                   </div>
+                </div>
+               </div>
+            <div class="login">
+                <div class="grid-two--column">
+                    <div class="form-text">
+                        <h2>Hello Friend</h2>
+                        <p>Enter your details and start your journey with us!</p>
+                        <button class="registration-btn">Register here</button>
+                    </div>
+                   <div class="login-form">
+                    <h2>Sign in</h2>
+                    <div class="social-icons">
+                        <a href="https://discord.com/">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://linkedin.com/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        
+                    </div>
+                    <p></p>
+                    <form action="#">
+                        <div class="input-field">
+                            <label for="Email1">
+                                <input type="email" name="#" id="Email1" placeholder="Enter your email">
+                            </label>
+                        </div>
+
+                            <div class="input-field">
+                            <label for="Password1">
+                                <input type="password" name="#" id="Password1" placeholder="Enter your password">
+                            </label>
+                            </div>
+                         <div class="input-field">
+                            <input type="submit" value="Sign In">
+                        </div>
+                        </div>
+                    </form>
+                   </div>
+                </div>
+            </div>
+            </section>
+        </main>
+    </header>
+    <script src="index.js"></script>
+</body>
+</html>
